@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    //假定运行环境的API有哪些
+    "lib": [
+      "es2015"
+    ],
+    //把代码编程成哪个模块系统
+    "module": "commonjs",
+    //生成的JavaScript代码存放到哪个文件夹中
+    "outDir": "dist",
+    //开启sourcemap方便调试
+    "sourceMap": true,
+    //检查无效代码，强制所有代码都应该正确声明了类型
+    "strict": true,
+    //把代码编译成哪个JavaScript版本
+    "target": "es2015"
+  },
+  //  在哪个文件夹寻找typescript文件
+  "include": [
+    "src"
+  ]
+}
